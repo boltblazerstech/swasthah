@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #10b981;
+  --color-brand-green-dark: #059669;
+  --color-brand-gray: #52525b;
+  --color-brand-gray-light: #f4f4f5;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-brand-gray bg-white;
+  }
+}
+
+.markdown-body {
+  @apply text-brand-gray leading-relaxed;
+}
+
+.markdown-body p {
+  @apply mb-4;
+}
+
+/* ── Knowledge Base Markdown Styles ── */
+.kb-markdown {
+  @apply text-brand-gray leading-relaxed text-[15px];
+}
+
+.kb-markdown h2 {
+  @apply text-lg font-bold text-brand-gray mt-6 mb-3 pb-2 border-b border-gray-100;
+}
+
+.kb-markdown h3 {
+  @apply text-base font-bold text-brand-gray mt-4 mb-2;
+}
+
+.kb-markdown p {
+  @apply mb-3 text-brand-gray/85;
+}
+
+.kb-markdown ul {
+  @apply mb-4 pl-5 space-y-1.5;
+}
+
+.kb-markdown ul li {
+  @apply text-brand-gray/85 list-disc;
+}
+
+.kb-markdown ol {
+  @apply mb-4 pl-5 space-y-1.5;
+}
+
+.kb-markdown ol li {
+  @apply text-brand-gray/85 list-decimal;
+}
+
+.kb-markdown blockquote {
+  @apply my-4 pl-4 border-l-4 border-brand-green/40 bg-brand-green/5 py-2 pr-3 rounded-r-lg text-brand-gray/80 italic;
+}
+
+.kb-markdown blockquote p {
+  @apply mb-0;
+}
+
+.kb-markdown strong {
+  @apply font-bold text-brand-gray;
+}
+
+.kb-markdown table {
+  @apply w-full mb-4 text-sm border-collapse rounded-lg overflow-hidden;
+}
+
+.kb-markdown thead {
+  @apply bg-brand-green/10;
+}
+
+.kb-markdown th {
+  @apply px-3 py-2 text-left font-bold text-brand-gray text-xs uppercase tracking-wider border-b border-brand-green/20;
+}
+
+.kb-markdown td {
+  @apply px-3 py-2 border-b border-gray-100 text-brand-gray/80;
+}
+
+.kb-markdown tr:hover td {
+  @apply bg-brand-green/5;
+}
+
+.kb-markdown hr {
+  @apply my-6 border-gray-200;
+}
+
+.kb-markdown code {
+  @apply bg-gray-100 text-brand-green px-1.5 py-0.5 rounded text-sm font-mono;
+}

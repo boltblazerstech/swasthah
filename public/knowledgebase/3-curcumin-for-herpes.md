@@ -1,0 +1,23 @@
+Research indicates that curcumin, the active compound in turmeric, has potential as an **anti-herpetic agent**, though evidence is primarily from laboratory and animal studies rather than human clinical trials.
+
+## 🧬 Antiviral Effects
+
+### Viral Inhibition
+In lab settings, curcumin has been shown to **reduce the infectivity and replication** of both Herpes Simplex Virus Type 1 (HSV-1) and Type 2 (HSV-2). It appears to interfere with the virus's ability to enter cells and express the genes required for its life cycle.
+
+### Mechanism of Action
+Studies suggest curcumin may **block the adsorption** (attachment) of the virus to host cells. It also impacts the **VP16 transactivator protein**, which is essential for initiating viral infection.
+
+### Thymidine Kinase Targeting
+Curcumin may bind to and inhibit **HSV-1 thymidine kinase**, an enzyme critical for viral DNA synthesis.
+
+## 🔥 Anti-Inflammatory Benefits
+
+### Symptom Reduction
+Curcumin is a potent anti-inflammatory that can reduce the production of pro-inflammatory cytokines like **IL-6** and **TNF-α**.
+
+### Topical Application
+Research in animal models indicates that topical or intravaginal delivery of curcumin (especially in nanoparticle or solubilized forms) can **reduce tissue inflammation** and pathology associated with HSV-2.
+
+### Outbreak Management
+By reducing inflammation, curcumin may help manage the **severity of outbreaks** and potentially lower the risk of transmitting other infections, such as HIV, which can be facilitated by herpes-related inflammation.
