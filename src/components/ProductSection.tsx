@@ -8,6 +8,10 @@ import { Check } from 'lucide-react';
 import { motion } from 'motion/react';
 import ProductImage from "../assets/productimg.JPG"
 
+interface ProductSectionProps {
+    openWhatsApp: (sachets: number) => void;
+}
+
 const ProductSection: React.FC<ProductSectionProps> = ({ openWhatsApp }) => {
     return (
         <section id="product" className="pt-8 pb-12 bg-brand-green/30">

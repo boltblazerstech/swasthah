@@ -27,6 +27,7 @@ export interface FAQ {
 export interface Benefit {
     title: string;
     icon: React.ReactNode;
+    description?: string;
 }
 
 // --- Data ---
