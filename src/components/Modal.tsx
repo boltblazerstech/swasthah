@@ -7,7 +7,7 @@ import React from 'react';
 import { X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import ReactMarkdown from 'react-markdown';
-// import rehypeRaw from 'rehype-raw';
+import rehypeRaw from 'rehype-raw';
 
 interface ModalProps {
     isOpen: boolean;
@@ -35,7 +35,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, content }) => {
                         </div>
                         <div className="p-8">
                             <div className="kb-markdown max-h-[60vh] overflow-y-auto pr-2">
-                                <ReactMarkdown>{content}</ReactMarkdown>
+                                <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
                             </div>
                             <button
                                 onClick={onClose}
